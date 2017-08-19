@@ -1,0 +1,464 @@
+.index {
+  min-width: 1200px;
+  font-family: "iconfont";
+}
+
+.index p {
+  margin: 0;
+}
+
+.index .index_banner {
+  position: relative;
+  height: 1020px;
+  background-image: url(../../../pkg/images/index-banner.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.index .index_banner .banner-content {
+  position: relative;
+  height: 100%;
+}
+
+.index .index_banner .banner-content .life {
+  position: absolute;
+  left: 100px;
+  top: 390px;
+}
+
+.index .index_banner .banner-content .life .start {
+  font-size: 52px;
+  color: #ffffff;
+}
+
+.index .index_banner .banner-content .life .choose {
+  margin-top: 20px;
+  line-height: 32px;
+  font-size: 18px;
+  color: #ccc;
+}
+
+.index .index_banner .banner-content .life .login {
+  display: block;
+  margin-top: 30px;
+  width: 150px;
+  height: 52px;
+  line-height: 52px;
+  text-align: center;
+  font-size: 18px;
+  color: #666;
+  background-color: #ffffff;
+  border-radius: 10px;
+}
+
+.index .index_banner .money {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 220px;
+  font-size: 18px;
+  color: #ffffff;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.index .index_banner .money .money-content ul li {
+  float: left;
+  width: 33%;
+  text-align: center;
+}
+
+.index .index_banner .money .money-content ul li .icon {
+  margin-top: 30px;
+}
+
+.index .index_banner .money .money-content ul li .sum {
+  margin: 12px 0;
+}
+
+.index .index_banner .money .money-content ul li .num {
+  font-size: 24px;
+}
+
+.index .index_guarantee ul {
+  padding: 29px 70px;
+}
+
+.index .index_guarantee ul li {
+  float: left;
+  width: 25%;
+  text-align: center;
+}
+
+.index .index_guarantee ul li .icon {
+  margin: 0 auto;
+  width: 100px;
+  height: 100px;
+  line-height: 100px;
+  font-size: 50px;
+  color: #448cf9;
+  border-radius: 50%;
+  border: 1px solid #448cf9;
+}
+
+.index .index_guarantee ul li .icon:hover {
+  color: #ffffff;
+  background-color: #448cf9;
+}
+
+.index .index_guarantee ul li .funds {
+  margin-top: 20px;
+  line-height: 32px;
+  font-size: 18px;
+  color: #333333;
+}
+
+.index .index_guarantee ul li .desc {
+  margin-top: 3px;
+  line-height: 21px;
+  font-size: 12px;
+  color: #666;
+}
+
+.index .index_inves_box {
+  background-color: #ededed;
+}
+
+.index .index_inves_box .inves {
+  position: relative;
+  padding: 38px 0 120px;
+}
+
+.index .index_inves_box .inves .inves_list {
+  margin-top: 64px;
+}
+
+.index .index_inves_box .inves .inves_list li {
+  float: left;
+  margin-right: 10px;
+  width: 290px;
+  height: 400px;
+  background-color: #ffffff;
+  border-radius: 4px;
+  overflow: hidden;
+  transition: all 0.5s ease 0s;
+}
+
+.index .index_inves_box .inves .inves_list li .name {
+  margin-top: 30px;
+  line-height: 27px;
+  text-align: center;
+  font-size: 18px;
+  color: #333333;
+}
+
+.index .index_inves_box .inves .inves_list li .revenue {
+  text-align: center;
+  margin: 55px 0 35px;
+}
+
+.index .index_inves_box .inves .inves_list li .revenue .percent {
+  line-height: 25px;
+  font-size: 25px;
+  color: #ea463a;
+}
+
+.index .index_inves_box .inves .inves_list li .revenue .expected {
+  margin-top: 20px;
+  font-size: 12px;
+  color: #666;
+}
+
+.index .index_inves_box .inves .inves_list li .modus {
+  margin: 0 45px;
+  padding: 0 20px;
+  height: 40px;
+  line-height: 40px;
+  color: #000;
+  border-top: 1px solid #cccccc;
+  border-bottom: 1px solid #cccccc;
+}
+
+.index .index_inves_box .inves .inves_list li .action {
+  display: block;
+  margin: 67px auto;
+  width: 120px;
+  height: 32px;
+  line-height: 32px;
+  text-align: center;
+  color: #ffffff;
+  background-color: #228cff;
+  border-radius: 3px;
+}
+
+.index .index_inves_box .inves .inves_list li:hover {
+  transform: scale(1.1);
+}
+
+.index .index_inves_box .inves .more {
+  position: absolute;
+  left: 50%;
+  bottom: 40px;
+  margin-left: -40px;
+  width: 80px;
+  text-align: center;
+  color: #888888;
+}
+
+.index .index_news {
+  position: relative;
+  padding: 40px 0 90px;
+}
+
+.index .index_news .news_list {
+  margin-top: 42px;
+}
+
+.index .index_news .news_list li {
+  float: left;
+  margin: 0 60px 38px 0;
+  width: 340px;
+}
+
+.index .index_news .news_list li .date {
+  font-size: 24px;
+  color: #ccc;
+}
+
+.index .index_news .news_list li .slogan {
+  position: relative;
+  padding: 25px 0 18px;
+  font-size: 16px;
+}
+
+.index .index_news .news_list li .slogan:after {
+  display: block;
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 10%;
+  height: 1px;
+  background-color: #ededed;
+  transition: all 0.5s ease 0s;
+}
+
+.index .index_news .news_list li .slogan:hover {
+  color: #228cff;
+}
+
+.index .index_news .news_list li .slogan:hover:after {
+  width: 100%;
+  background-color: #666;
+}
+
+.index .index_news .news_list li .intro {
+  margin: 24px 0;
+  line-height: 24px;
+  font-size: 12px;
+  color: #999999;
+}
+
+.index .index_news .more {
+  position: absolute;
+  left: 50%;
+  bottom: 40px;
+  margin-left: -35px;
+  display: block;
+  width: 68px;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  font-size: 14px;
+  color: #999999;
+  border: 1px solid #999999;
+  border-radius: 2px;
+}
+
+.index .index_news .more:hover:hover {
+  border-color: #228cff;
+  color: #228cff;
+}
+
+.index .index_dynamic {
+  background-color: #ededed;
+}
+
+.index .index_dynamic .dynamic_wrapper {
+  box-sizing: border-box;
+  padding: 40px 0 120px;
+}
+
+.index .index_dynamic .dynamic_wrapper .dynamic_list_box {
+  position: relative;
+  padding: 33px 0 88px;
+  width: 100%;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.index .index_dynamic .dynamic_wrapper .dynamic_list_box .dynamic_list {
+  position: relative;
+  margin-right: -50px;
+  font-size: 0;
+  white-space: nowrap;
+}
+
+.index .index_dynamic .dynamic_wrapper .dynamic_list_box .dynamic_list li {
+  display: inline-block;
+  margin-right: 50px;
+  width: 575px;
+}
+
+.index .index_dynamic .dynamic_wrapper .dynamic_list_box .dynamic_list li .imag {
+  display: block;
+  width: 100%;
+  height: 200px;
+}
+
+.index .index_dynamic .dynamic_wrapper .dynamic_list_box .dynamic_list li .desc {
+  position: relative;
+  padding: 16px 60px 0 20px;
+}
+
+.index .index_dynamic .dynamic_wrapper .dynamic_list_box .dynamic_list li .desc .environment {
+  margin-bottom: 6px;
+  font-size: 16px;
+  color: #333333;
+}
+
+.index .index_dynamic .dynamic_wrapper .dynamic_list_box .dynamic_list li .desc .environment:hover {
+  color: #228cff;
+}
+
+.index .index_dynamic .dynamic_wrapper .dynamic_list_box .dynamic_list li .desc .intro {
+  font-size: 12px;
+  color: #666;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.index .index_dynamic .dynamic_wrapper .dynamic_list_box .dynamic_list li .desc .jump {
+  position: absolute;
+  right: 20px;
+  top: 20px;
+}
+
+.index .index_dynamic .dynamic_wrapper .dynamic_list_box .move li {
+  position: absolute;
+  top: 115px;
+}
+
+.index .index_dynamic .dynamic_wrapper .dynamic_list_box .move li span {
+  display: block;
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  font-size: 20px;
+  color: #ffffff;
+  border-radius: 2px;
+  background-color: rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+}
+
+.index .index_dynamic .dynamic_wrapper .dynamic_list_box .move li span:hover {
+  background-color: #228cff;
+}
+
+.index .index_dynamic .dynamic_wrapper .dynamic_list_box .move .move_l {
+  left: 10px;
+}
+
+.index .index_dynamic .dynamic_wrapper .dynamic_list_box .move .move_r {
+  right: 10px;
+}
+
+.index .index_dynamic .dynamic_wrapper .company {
+  position: relative;
+  box-sizing: border-box;
+  padding: 0 130px;
+}
+
+.index .index_dynamic .dynamic_wrapper .company .company_list_box {
+  box-sizing: border-box;
+  width: 100%;
+  overflow: hidden;
+}
+
+.index .index_dynamic .dynamic_wrapper .company .company_list_box .company_list {
+  position: relative;
+  margin-right: -43px;
+  font-size: 0;
+  white-space: nowrap;
+}
+
+.index .index_dynamic .dynamic_wrapper .company .company_list_box .company_list li {
+  display: inline-block;
+  margin-right: 43px;
+}
+
+.index .index_dynamic .dynamic_wrapper .company .company_list_box .company_list li a {
+  display: block;
+}
+
+.index .index_dynamic .dynamic_wrapper .company .move li {
+  position: absolute;
+  top: 20px;
+}
+
+.index .index_dynamic .dynamic_wrapper .company .move li span {
+  display: block;
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  font-size: 20px;
+  color: #333333;
+  cursor: pointer;
+}
+
+.index .index_dynamic .dynamic_wrapper .company .move li span:hover {
+  color: #228cff;
+}
+
+.index .index_dynamic .dynamic_wrapper .company .move .move_l {
+  left: 60px;
+}
+
+.index .index_dynamic .dynamic_wrapper .company .move .move_r {
+  right: 60px;
+}
+
+.index .jump {
+  display: block;
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  font-size: 20px;
+  color: #999999;
+  border: 1px solid #999999;
+  border-radius: 2px;
+}
+
+.index .jump:hover {
+  border-color: #228cff;
+  color: #228cff;
+}
+
+.index .index_title {
+  text-align: center;
+}
+
+.index .index_title .cn {
+  font-size: 18px;
+  color: #333333;
+}
+
+.index .index_title .en {
+  margin-top: 10px;
+  font-size: 12px;
+  color: #666;
+}

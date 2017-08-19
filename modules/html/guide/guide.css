@@ -1,0 +1,83 @@
+.banner_new {
+  width: 100%;
+  height: 400px;
+  background: #F2F2F2 url(../../../pkg/images/guide_banner_new.jpg) no-repeat center top;
+}
+
+.index {
+  width: 100%;
+  padding-top: 100px;
+  background: #eeeeee;
+}
+
+.index .indexContent {
+  background: url(../../../pkg/images/guide_slide_bg.png) no-repeat center top;
+  border-top: 1px solid transparent;
+}
+
+.index .indexContent .inside_pics {
+  position: relative;
+  height: 389px;
+  width: 619px;
+  margin: 25px auto;
+  overflow: hidden;
+  font-size: 0;
+}
+
+.index .indexContent .inside_pics .pics {
+  position: absolute;
+  left: 0;
+  top: 0;
+  white-space: nowrap;
+  width: 3095px;
+}
+
+.index .indexContent .inside_pics .pics li {
+  float: left;
+}
+
+.index .indexContent .btns {
+  padding: 100px 172px;
+}
+
+.index .indexContent .btns li {
+  float: left;
+  width: 123px;
+  margin-right: 60px;
+  cursor: pointer;
+  text-align: center;
+}
+
+.index .indexContent .btns li:last-child {
+  margin-right: 0;
+}
+
+.index .indexContent .btns li img.btn_pic02 {
+  display: none;
+}
+
+.index .indexContent .btns li p {
+  margin: 0;
+  font-size: 16px;
+  line-height: 32px;
+  text-align: center;
+}
+
+.index .invest {
+  text-align: center;
+}
+
+.index .invest a {
+  display: inline-block;
+  margin-bottom: 100px;
+  padding: 10px 30px;
+  border: none;
+  border-radius: 5px;
+  background: #228cff;
+  font-size: 18px;
+  color: #ffffff;
+}
+
+.index .invest a:hover {
+  background: darkblue;
+}

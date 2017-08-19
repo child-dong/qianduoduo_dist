@@ -1,0 +1,100 @@
+#header {
+  background: #f7f6f2;
+}
+
+#header .container .img_box {
+  float: left;
+  line-height: 60px;
+}
+
+#header .container .img_box img {
+  vertical-align: middle;
+}
+
+#header .container .nav {
+  float: right;
+  margin-right: 18px;
+}
+
+#header .container .nav .nav_box > li {
+  float: left;
+}
+
+#header .container .nav .nav_box > li a {
+  display: inline-block;
+  padding: 20px 16px;
+  color: #333333;
+}
+
+#header .container .nav .nav_box > li .icon-login {
+  font-size: 18px;
+  padding-left: 36px;
+  padding-right: 36px;
+  line-height: 60px;
+}
+
+#header .container .nav .nav_box > li .icon-login:hover {
+  color: #228cff;
+}
+
+#header .container .nav .nav_box > li:hover > a {
+  color: #228cff;
+}
+
+#header .container .nav .nav_box .investment ul {
+  display: none;
+  position: absolute;
+  z-index: 1;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  background: #ffffff;
+}
+
+#header .container .nav .nav_box .investment ul li {
+  text-align: center;
+  font-size: 14px;
+}
+
+#header .container .nav .nav_box .investment ul li a {
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+#header .container .nav .nav_box .investment ul li:hover a {
+  color: #228cff;
+}
+
+#header .container .nav .nav_box .investment:hover ul {
+  display: block;
+}
+
+#header .container .nav .nav_box .login {
+  cursor: pointer;
+}
+
+#header .container .nav .nav_box .login ul {
+  display: none;
+  position: absolute;
+  z-index: 1;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  background: #ffffff;
+}
+
+#header .container .nav .nav_box .login ul li {
+  text-align: center;
+  font-size: 14px;
+}
+
+#header .container .nav .nav_box .login ul li a {
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+#header .container .nav .nav_box .login ul li:hover a {
+  color: #228cff;
+}
+
+#header .container .nav .nav_box .login:hover ul {
+  display: block;
+}

@@ -1,0 +1,70 @@
+.client {
+  padding: 70px 0;
+  font-size: 16px;
+  background: #ededed;
+}
+
+.client .aisde {
+  box-sizing: border-box;
+  padding: 35px 40px;
+  width: 290px;
+  height: 320px;
+  background-color: #ffffff;
+  border-radius: 15px;
+}
+
+.client .list {
+  margin-top: 30px;
+  height: auto;
+}
+
+.client .list-menu {
+  position: relative;
+  line-height: 30px;
+}
+
+.client .list-menu span {
+  position: absolute;
+  right: 0;
+  top: 2px;
+  font-family: "Hiragino Sans GB", "SimSun";
+  transition: 300ms;
+}
+
+.client .list-menu .dropdown {
+  display: none;
+  box-sizing: border-box;
+  padding-left: 10px;
+}
+
+.client .list-menu .dropdown a {
+  display: block;
+}
+
+.client .list-menu:hover .dropdown {
+  display: block;
+}
+
+.client .list-menu:hover span {
+  transform: rotate(90deg);
+}
+
+.client .content {
+  box-sizing: border-box;
+  padding: 20px;
+  width: 850px;
+  min-height: 600px;
+  border-radius: 15px;
+  background-color: #ffffff;
+}
+
+.client .content h3.title {
+  margin: 0;
+  padding-bottom: 20px;
+  font-weight: 400;
+  border-bottom: 1px solid #ededed;
+}
+
+.client .content .content-box {
+  padding: 40px;
+}
