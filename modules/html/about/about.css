@@ -1,3 +1,34 @@
-.about {
-  display: flex;
+html, body {
+  background: #ededed;
+}
+
+.content {
+  margin-bottom: 58px;
+  background: #fff;
+  border-radius: 10px;
+}
+
+.content h2 {
+  height: 58px;
+  padding-left: 32px;
+  line-height: 58px;
+  font-weight: normal;
+  border-bottom: 1px solid #ededed;
+}
+
+.content .pic {
+  margin-top: 39px;
+}
+
+.content .pic img {
+  display: block;
+  margin: 0 auto;
+}
+
+.content .introduction {
+  padding: 36px 40px 90px;
+}
+
+.content .introduction p {
+  text-indent: 2em;
 }

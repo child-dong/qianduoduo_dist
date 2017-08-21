@@ -1,0 +1,38 @@
+html, body {
+  background: #ededed;
+}
+
+.content {
+  margin-bottom: 58px;
+  background: #fff;
+  border-radius: 10px;
+}
+
+.content h2 {
+  height: 58px;
+  padding-left: 32px;
+  line-height: 58px;
+  margin-bottom: 0;
+  font-weight: normal;
+  border-bottom: 1px solid #ededed;
+}
+
+.content .pic {
+  margin-top: 39px;
+}
+
+.content .pic img {
+  display: block;
+  margin: 0 auto;
+}
+
+.content ul {
+  margin-top: 58px;
+  padding-bottom: 224px;
+  font-size: 0;
+  text-align: center;
+}
+
+.content ul li {
+  display: inline-block;
+}

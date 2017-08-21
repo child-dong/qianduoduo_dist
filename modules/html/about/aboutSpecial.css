@@ -1,0 +1,47 @@
+html, body {
+  background: #ededed;
+}
+
+.content {
+  margin-bottom: 58px;
+  background: #fff;
+  border-radius: 10px;
+}
+
+.content h2 {
+  height: 58px;
+  padding-left: 32px;
+  line-height: 58px;
+  margin-bottom: 0;
+  font-weight: normal;
+  border-bottom: 1px solid #ededed;
+}
+
+.content .pic {
+  margin-top: 38px;
+}
+
+.content .pic img {
+  display: block;
+  margin: 0 auto;
+}
+
+.content .introduction {
+  padding: 40px 42px 63px;
+  line-height: 25px;
+}
+
+.content .introduction h3 {
+  text-indent: 2em;
+  margin: 0;
+}
+
+.content .introduction p {
+  text-indent: 2em;
+  margin: 0;
+}
+
+.content .introduction p span {
+  display: block;
+  text-indent: 2em;
+}

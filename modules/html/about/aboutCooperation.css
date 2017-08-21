@@ -1,0 +1,65 @@
+html, body {
+  background: #ededed;
+}
+
+.content {
+  margin-bottom: 58px;
+  background: #fff;
+  border-radius: 10px;
+}
+
+.content h2 {
+  height: 58px;
+  padding-left: 32px;
+  line-height: 58px;
+  margin-bottom: 0;
+  font-weight: normal;
+  border-bottom: 1px solid #ededed;
+}
+
+.content .list-coo {
+  width: 950px;
+  margin: 13px auto 0;
+}
+
+.content .list-coo li {
+  float: left;
+  margin-right: 10px;
+  width: 299px;
+  height: 96px;
+  font-size: 18px;
+  line-height: 96px;
+  text-align: center;
+  border: 1px solid #ccc;
+}
+
+.content .list-coo li:last-child {
+  margin-right: 0;
+}
+
+.content .list-coo li:hover {
+  box-shadow: 0 0 25px #888;
+  color: #228cff;
+  transition: 1s;
+}
+
+.content .list-pic {
+  margin-top: 58px;
+}
+
+.content .list-pic li {
+  float: left;
+  display: none;
+  padding-bottom: 96px;
+}
+
+.content .list-pic li img {
+  width: 302px;
+  display: block;
+  margin: 0 auto 47px;
+}
+
+.content .list-pic li p {
+  padding: 0 142px;
+  text-indent: 2em;
+}

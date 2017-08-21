@@ -1,5 +1,57 @@
 <link rel="stylesheet" href=__relative<<<"/modules/html/calculator/calculator.scss">>>>
 
 <div class="calculator">
-	丁超的页面aaaa
+ <div class="container">
+    <div class="calc">
+      <p>收益计算器</p>
+    </div>
+  	<div class="earnings">
+      <div class="tb">
+        <img src=__relative<<<"/modules/images/tb.jpg">>> alt="">
+      </div>
+      <div class="calculate">
+        <p>投资金额:<input type="text"> 元</p>
+        <p>年化利率:<input type="text"> %</p>
+        <p class="san">
+        还款期限:<input type='text'>
+          <select class="jumpMenu">
+            <option selected = "selected">全部</option>
+            <option>月</option>
+            <option >季</option>
+            <option>日</option>
+          </select>
+        </p>
+        <p class="san">
+          还款方式:
+            <select class="Manner">
+              <option selected = "selected">全部</option>
+              <option>等额本金</option>
+              <option>等额本息</option>
+              <option>到期还本付息</option>
+              <option>按季付息,到期还本</option>
+            </select>
+        </p>
+        <div class="click">
+          <span>收益计算</span>
+        </div>
+      </div>
+    </div>
+    <div class="biaoge-tilie">
+      <span>预计收益</span>
+    </div>
+    <table class="predict">
+      <thead>
+        <tr>
+          <th>期数</th>
+          <th>还款时间</th>
+          <th>本期金额</th>
+          <th>本期本金</th>
+          <th>本期利息</th>
+          <th>剩余本金</th>
+        </tr>
+      </thead>
+      <tbody>
+      </tbody>
+    </table>
+  </div>
 </div>

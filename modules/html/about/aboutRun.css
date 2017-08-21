@@ -1,0 +1,36 @@
+html, body {
+  background: #ededed;
+}
+
+.content {
+  margin-bottom: 58px;
+  background: #fff;
+  border-radius: 10px;
+}
+
+.content h2 {
+  height: 58px;
+  padding-left: 32px;
+  line-height: 58px;
+  margin-bottom: 0;
+  font-weight: normal;
+  border-bottom: 1px solid #ededed;
+}
+
+.content .introduction {
+  padding: 37px 42px 0;
+}
+
+.content .introduction li {
+  line-height: 38px;
+}
+
+.content .pic {
+  margin-top: 139px;
+  padding-bottom: 240px;
+}
+
+.content .pic img {
+  display: block;
+  margin: 0 auto;
+}

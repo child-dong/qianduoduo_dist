@@ -1,0 +1,77 @@
+.bulletin_wrapper {
+  padding-top: 70px;
+  padding-bottom: 60px;
+  background-color: #ededed;
+}
+
+.bulletin_wrapper .bulletin_nav {
+  padding: 20px 20px 20px 40px;
+  box-sizing: border-box;
+  width: 290px;
+  line-height: 35px;
+  border-radius: 8px;
+  background-color: #ffffff;
+}
+
+.bulletin_wrapper .bulletin_nav .list_sonone {
+  margin-left: 15px;
+  overflow: hidden;
+}
+
+.bulletin_wrapper .bulletin_nav .list_sonone .list_tilte1 {
+  display: block;
+}
+
+.bulletin_wrapper .bulletin_nav .list_sontwo {
+  margin-left: 15px;
+  overflow: hidden;
+}
+
+.bulletin_wrapper .bulletin_nav .list_sontwo .list_tilte2 {
+  display: block;
+}
+
+.bulletin_wrapper .bulletin_detail {
+  margin-left: 70px;
+  width: 800px;
+  font-size: 15px;
+  background-color: #ffffff;
+  border-radius: 8px;
+}
+
+.bulletin_wrapper .bulletin_detail h2 {
+  margin: 0;
+  padding-left: 38px;
+  box-sizing: border-box;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 60px;
+  border-bottom: 1px solid #ededed;
+}
+
+.bulletin_wrapper .bulletin_detail ul {
+  padding: 0 50px 40px 80px;
+  box-sizing: border-box;
+}
+
+.bulletin_wrapper .bulletin_detail ul li {
+  line-height: 80px;
+  border-bottom: 1px solid #ededed;
+}
+
+.bulletin_wrapper .bulletin_detail ul li p {
+  line-height: 20px;
+}
+
+.bulletin_wrapper .bulletin_detail ul li .detail {
+  display: none;
+}
+
+.bulletin_wrapper .bulletin_detail ul li .detail .pic1 {
+  width: 680px;
+}
+
+.bulletin_wrapper .bulletin_detail ul li .detail .pic1 img {
+  height: 100%;
+  width: 100%;
+}

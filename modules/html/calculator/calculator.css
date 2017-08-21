@@ -1,4 +1,145 @@
-.fox {
-  font-size: 36px;
-  color: red;
+.calculator {
+  background: #FFF;
+  height: 785px;
+  overflow: hidden;
+  margin-top: 33px;
+  margin-bottom: 60px;
+}
+
+.calculator .container {
+  width: 1200px;
+  height: 100%;
+  margin: 0 auto;
+}
+
+.calculator .calc {
+  width: 100%;
+  height: 60px;
+  border-bottom: 1px solid #e6e6e6;
+}
+
+.calculator .calc p {
+  line-height: 60px;
+  padding-left: 20px;
+  font-size: 20px;
+  color: #333333;
+}
+
+.calculator .earnings {
+  width: 865px;
+  margin: 0 auto;
+  margin-top: 60px;
+}
+
+.calculator .earnings .tb {
+  float: left;
+  width: 313px;
+  margin-top: 30px;
+}
+
+.calculator .earnings .calculate {
+  float: right;
+  width: 443px;
+}
+
+.calculator .earnings .calculate p {
+  overflow: hidden;
+  margin-bottom: 18px;
+  float: left;
+  line-height: 44px;
+  font-size: 18px;
+  color: #666666;
+}
+
+.calculator .earnings .calculate p .jumpMenu {
+  width: 90px;
+  margin: 0px;
+  padding-left: 16px;
+  height: 44px;
+  line-height: 44px;
+  margin-left: 10px;
+  border-radius: 4px;
+}
+
+.calculator .earnings .calculate p .Manner {
+  width: 310px;
+  margin: 0px;
+  padding-left: 16px;
+  height: 44px;
+  line-height: 44px;
+  margin-left: 0px;
+}
+
+.calculator .earnings .calculate .san {
+  position: relative;
+}
+
+.calculator .earnings .calculate .san:after {
+  position: absolute;
+  content: "";
+  display: block;
+  right: 10px;
+  top: 20px;
+  width: 0;
+  height: 0;
+  border-width: 5px;
+  border-style: solid dashed dashed dashed;
+  border-color: black transparent transparent transparent;
+}
+
+.calculator .earnings .calculate .click {
+  clear: both;
+  display: block;
+  width: 310px;
+  height: 44px;
+  line-height: 44px;
+  text-align: center;
+  background: #228cff;
+  color: #ffffff;
+  font-size: 18px;
+  margin-left: 88px;
+  border-radius: 4px;
+}
+
+.calculator .biaoge-tilie {
+  clear: both;
+  font-size: 14px;
+  color: #333333;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #e6e6e6;
+  padding-left: 2px;
+}
+
+.calculator .predict {
+  position: relative;
+  margin: 20px auto 0;
+  background: #c2cee1;
+  width: 100%;
+  text-align: center;
+  padding: 10px 0;
+}
+
+.calculator .predict thead {
+  display: table-header-group;
+  vertical-align: middle;
+  border-color: inherit;
+}
+
+.calculator .predict thead tr {
+  display: table-row;
+  vertical-align: inherit;
+  border-color: inherit;
+}
+
+.calculator .predict thead th {
+  line-height: 26px;
+  border: 0;
+  padding: 0 10px;
+  color: #333;
+}
+
+.calculator .predict tbody {
+  display: table-row-group;
+  vertical-align: middle;
+  border-color: inherit;
 }

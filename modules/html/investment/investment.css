@@ -1,3 +1,123 @@
 .investment {
   background: #ededed;
+  overflow: hidden;
+}
+
+.investment .banners {
+  width: 100%;
+  height: 400px;
+  background: url(../../../pkg/images/guide_banner_new.jpg);
+  background-size: cover;
+}
+
+.investment .project {
+  margin: 30px 0 50px 0;
+  padding: 25px 0;
+  background-color: #fff;
+}
+
+.investment .project ul li {
+  float: left;
+  font-size: 17px;
+  text-align: center;
+}
+
+.investment .project ul li span {
+  display: block;
+  padding: 35px 50px 27px 50px;
+}
+
+.investment .project ul li .red {
+  color: red;
+}
+
+.investment .project ul li a {
+  display: block;
+  padding: 35px 50px 27px 50px;
+}
+
+.investment .project ul li a:hover {
+  color: red;
+}
+
+.investment .loan {
+  margin-bottom: 60px;
+  border-radius: 10px;
+  background-color: #fff;
+}
+
+.investment .loan .colors {
+  color: red;
+}
+
+.investment .loan p {
+  line-height: 80px;
+  font-size: 17px;
+  text-indent: 30px;
+  border-bottom: 1px solid #ededed;
+}
+
+.investment .loan ul {
+  padding: 35px 0;
+  background-color: #fff;
+  border-bottom: 1px solid #ededed;
+  position: relative;
+}
+
+.investment .loan ul li {
+  float: left;
+  padding: 0 88px;
+  border-right: 1px solid #ededed;
+  padding-bottom: 15px;
+}
+
+.investment .loan ul li:last-child {
+  padding-left: 40px;
+  border-right: none;
+}
+
+.investment .loan ul li span {
+  display: block;
+}
+
+.investment .loan ul li .num {
+  font-size: 23px;
+  line-height: 60px;
+}
+
+.investment .loan ul li .tex {
+  line-height: 26px;
+  font-size: 12px;
+}
+
+.investment .loan ul li .full {
+  line-height: 60px;
+  position: relative;
+}
+
+.investment .loan ul li .full:before {
+  position: absolute;
+  left: 0;
+  top: 70px;
+  display: block;
+  height: 4px;
+  width: 140px;
+  content: '';
+  background-color: #228cff;
+}
+
+.investment .loan ul li .percentage {
+  color: #228cff;
+  margin-left: 150px;
+  line-height: 20px;
+}
+
+.investment .loan ul li .pending {
+  position: absolute;
+  top: 70px;
+  right: 50px;
+  padding: 11px 15px;
+  border-radius: 3px;
+  color: #fff;
+  background-color: #ccc;
 }
